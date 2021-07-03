@@ -12,7 +12,14 @@ import InputMessage from "../InputMessage";
 
 const PhoneCard: React.FC = () => {
   return (
-    <Stack alignItems="center" backgroundColor="white" borderRadius={32} height={507} width={250}>
+    <Stack
+      alignItems="center"
+      backgroundColor="white"
+      borderRadius={32}
+      height={507}
+      minWidth={250}
+      width={250}
+    >
       <Stack
         backgroundColor="white"
         borderRadius={16}
@@ -28,6 +35,7 @@ const PhoneCard: React.FC = () => {
         direction="column"
         height="462"
         marginY={5}
+        minWidth="230px"
         paddingX={3}
         width="230px"
       >

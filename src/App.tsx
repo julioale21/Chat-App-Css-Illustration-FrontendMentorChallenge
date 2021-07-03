@@ -1,20 +1,24 @@
-import { Box, Stack } from "@chakra-ui/react";
 import React from "react";
-import PhoneCard from "./components/PhoneCard";
+import { Stack } from "@chakra-ui/react";
+import BackgroundImageLeft from "./components/BackgroundImageLeft";
+import PhoneSection from "./components/sections/PhoneSection";
+import DescriptionSection from "./components/sections/DescriptionSection";
 
 function App() {
   return (
     <Stack
       backgroundColor="lightGradishViolet"
-      height="100vh"
+      height="100%"
+      minHeight="100vh"
       padding={6}
       textAlign="center"
       width="100%"
     >
-      <Box>
-        <h1>chat app</h1>
-        <PhoneCard />
-      </Box>
+      <BackgroundImageLeft />
+      <Stack direction={{ base: "column", md: "row" }} zIndex={1}>
+        <PhoneSection />
+        <DescriptionSection />
+      </Stack>
     </Stack>
   );
 }
