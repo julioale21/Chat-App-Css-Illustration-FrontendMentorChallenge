@@ -9,7 +9,7 @@ const DescriptionSection: React.FC = () => {
         direction="column"
         height="100%"
         justifyContent="center"
-        width={{ base: "100%", md: "75%" }}
+        width={{ base: "100%", md: "62%" }}
       >
         <Text fontSize={{ base: "2rem", md: "2.2rem" }} fontWeight="500">
           Simple booking
