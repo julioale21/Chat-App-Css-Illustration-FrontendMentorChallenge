@@ -7,10 +7,12 @@ const theme = extendTheme({
   colors: {
     leftToRightGradient: "linear-gradient(to right, hsl(264, 100%, 61%),hsl(293, 100%, 63%))",
     rightToLeftGradient: "linear-gradient(to left, hsl(264, 100%, 61%),hsl(293, 100%, 63%))",
+    topToBottomGradient: "linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%))",
     white: "hsl(0, 0%, 100%)",
     lightMagenta: "hsl(293, 100%, 63%)",
     lightViolet: "hsl(264, 100%, 61%)",
     lightGradishViolet: "hsl(270, 20%, 96%)",
+    darkGrayishViolet: "hsl(270, 7%, 64%)",
     veryDarkDesaturedViolet: "hsl(271, 36%, 24%)",
     veryLightMagenta: "hsl(289, 100%, 72%)",
     bgMessageViolet: "hsl(272, 41%, 93%)",
