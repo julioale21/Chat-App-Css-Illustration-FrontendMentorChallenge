@@ -7,10 +7,10 @@ const PhoneSection: React.FC = () => {
     <Stack
       alignItems="center"
       direction="row"
-      height={{ base: "85vh", md: "100vh" }}
+      height={{ base: "85vh", md: "90vh" }}
       justifyContent={{ base: "center", md: "flex-end" }}
       paddingBottom={10}
-      paddingRight={{ base: "0", md: "80px" }}
+      paddingRight={{ base: "0", md: "80px", xl: "120px" }}
       width={{ base: "100%", md: "50%" }}
     >
       <PhoneCard />
