@@ -6,12 +6,12 @@ const BackgroundImageLeft: React.FC = () => {
     <Stack
       background="topToBottomGradient"
       borderRadius="0 0 270px 270px"
-      height={{ base: "70%", md: "125%" }}
+      height={{ base: "70%", lg: "125%" }}
       left={0}
-      maxWidth={{ base: "400px", md: "540px" }}
+      maxWidth={{ base: "400px", lg: "540px" }}
       position="absolute"
       top={0}
-      transform={{ base: "translate(-50%, -30%)", md: "translate(-18%, -33%)" }}
+      transform={{ base: "translate(-50%, -30%)", lg: "translate(-18%, -39%)" }}
       width="100%"
       zIndex={0}
     />
