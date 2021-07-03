@@ -12,6 +12,8 @@ const AdvertisingMessage: React.FC<Props> = ({ quantity, message }) => {
         alignItems="center"
         background="rightToLeftGradient"
         borderRadius="12px 12px 12px 6px"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
         direction="row"
         justifyContent="space-between"
         padding="0.35rem"

@@ -4,7 +4,6 @@ import BackgroundImageLeft from "./components/BackgroundImageLeft";
 import PhoneSection from "./components/sections/PhoneSection";
 import DescriptionSection from "./components/sections/DescriptionSection";
 import BackgroundImageRight from "./components/BackgroundImageRight";
-
 function App() {
   return (
     <Stack

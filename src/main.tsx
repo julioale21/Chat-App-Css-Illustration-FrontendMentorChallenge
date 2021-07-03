@@ -2,6 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import App from "./App";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const theme = extendTheme({
   colors: {

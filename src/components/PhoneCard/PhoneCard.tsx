@@ -15,9 +15,12 @@ const PhoneCard: React.FC = () => {
     <Stack
       alignItems="center"
       backgroundColor="white"
+      border="1px"
+      borderColor="gray.200"
       borderRadius={32}
       height={507}
       minWidth={250}
+      shadow="md"
       width={250}
     >
       <Stack

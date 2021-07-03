@@ -14,6 +14,8 @@ const Messsage: React.FC<Props> = ({ message, position = "left" }) => {
         alignSelf={`${left ? "self-start" : "self-end"}`}
         backgroundColor={`${left ? "bgMessageViolet" : "white"}`}
         borderRadius={`${left ? "12px 12px 12px 6px" : "12px 12px 6px 12px"}`}
+        data-aos="zoom-in"
+        data-aos-duration="1000"
         maxWidth="65%"
         padding="0.55rem"
         paddingRight="1.4rem"
