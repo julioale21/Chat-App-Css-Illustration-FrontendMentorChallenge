@@ -1,5 +1,4 @@
-.phone {
-  width: 250px;
-  height: 500px;
-  border: 1px solid black;
+.avatar {
+  border: 1px solid white;
+  border-radius: 100%;
 }
