@@ -12,7 +12,7 @@ const ImageMessage: React.FC<Props> = ({ images, position = "left" }) => {
   return (
     <Stack direction="row" justifyContent={`${left ? "flex-start" : "flex-end"}`} width="100%">
       {images.map((item) => (
-        <Image key={item} alt={item} borderRadius={10} src={item} width={10} />
+        <Image key={item} borderRadius={10} src={item} width={10} />
       ))}
     </Stack>
   );
