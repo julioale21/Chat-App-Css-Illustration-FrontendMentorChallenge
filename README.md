@@ -6,10 +6,11 @@
    
    
    
-   [![Netlify Status](https://api.netlify.com/api/v1/badges/37070d2f-4003-4ec7-9e01-1ef5f0b70eaa/deploy-status)](https://app.netlify.com/sites/todoapp-frontend-mentor/deploys)
-   ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/julioale21/TodoApp-FrontendMentorChallenge)
-   ![GitHub language count](https://img.shields.io/github/languages/count/julioale21/TodoApp-FrontendMentorChallenge)
-   ![GitHub top language](https://img.shields.io/github/languages/top/julioale21/TodoApp-FrontendMentorChallenge)
+   [![Netlify Status](https://api.netlify.com/api/v1/badges/193f8636-0d21-4f52-b4ce-9406bf96a69f/deploy-status)](https://app.netlify.com/sites/chat-app-css-illustrator/deploys)
+   ![GitHub language count](https://img.shields.io/github/languages/count/julioale21/Chat-App-Css-Illustration-FrontendMentorChallenge?color=success)
+   ![GitHub top language](https://img.shields.io/github/languages/top/julioale21/Chat-App-Css-Illustration-FrontendMentorChallenge?color=success)
+   ![GitHub release (latest by date)](https://img.shields.io/github/v/release/julioale21/Chat-App-Css-Illustration-FrontendMentorChallenge?color=success)
+   
    
    ### [📖  Go to CHANGELOG.md to view the changes registry](CHANGELOG.md)
    
@@ -45,7 +46,7 @@ See the chat interface animate on the initial load (optional)
 
 
 ## Demo
-[]()
+[https://chat-app-css-illustrator.netlify.app/](https://chat-app-css-illustrator.netlify.app/)
 
 ## Project
 ### Tools
